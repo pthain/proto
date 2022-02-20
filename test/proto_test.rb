@@ -14,12 +14,3 @@ class ProtoTest < Minitest::Test
     assert_equal proto.is_running, false
   end
 end
-# require_relative 'proto_test'
-# ProtoTest.new
-
-# require 'minitest/autorun'
-# require_relative '../lib/main'
-
-# Test Suite
-# class TestSuite < Minitest::Test
-# end
