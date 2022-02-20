@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative 'logger'
-require_relative 'proto'
+require_relative 'util/logger'
+require_relative 'gamestates/proto'
 
 logger = Logger.new
 

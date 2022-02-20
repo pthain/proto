@@ -4,7 +4,7 @@
 # This is a logger. Logs can be found at '/.../proto/log'
 class Logger
   def initialize
-    @log_dir = File.expand_path('../log/log.txt', File.dirname(__FILE__)).to_str
+    @log_dir = File.expand_path('../../log/log.txt', File.dirname(__FILE__)).to_str
   end
 
   def info(msg)

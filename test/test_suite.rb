@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 require 'minitest/autorun'
-require_relative '../lib/cli'
-require_relative '../lib/proto'
+require_relative '../lib/util/cli'
+require_relative '../lib/gamestates/proto'
 
 # Test you can exit proto
 class ProtoTest < Minitest::Test
