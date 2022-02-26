@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
 require_relative '../actors/actor'
-require_relative '../attributes/attribute'
 
+##
+# Initializer that runs when the games starts.
 class Initializer
   def initialize; end
 
